@@ -1,0 +1,22 @@
+there are two types of js
+common in which require statements are used
+module in which import ststement are used
+
+we use axios to handle data between the frontend and backend 
+we can use fetch but axios gives more functionality
+-----
+
+Now if I want to not declare the whole http then i us eproxiy mening an alias
+now to do so just go yo vite confifg and write the following:
+
+server: {
+    proxy:{
+      '/api' : 'http://localhost:3000'
+    }
+  },
+
+it is a key value pair 
+
+In backend we have get listen and port 
+
+
